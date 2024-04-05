@@ -21,6 +21,13 @@ depends=(
   'luajit'
   'msgpack-c'
   'tree-sitter>=0.22.2'
+  'tree-sitter-bash'
+  'tree-sitter-c'
+  'tree-sitter-lua'
+  'tree-sitter-markdown'
+  'tree-sitter-python'
+  'tree-sitter-query'
+  'tree-sitter-vimdoc'
   'unibilium'
   'lua51-lpeg'
 )
