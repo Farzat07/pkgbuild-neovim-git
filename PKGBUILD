@@ -89,6 +89,8 @@ package() {
 
   mkdir -p "${pkgdir}"/usr/share/vim
   echo "set runtimepath+=/usr/share/vim/vimfiles" > "${pkgdir}"/usr/share/nvim/archlinux.vim
+
+  ln -s /usr/lib/tree_sitter "${pkgdir}"/usr/lib/nvim/parser
 }
 
 # vim:set sw=2 sts=2 et:
