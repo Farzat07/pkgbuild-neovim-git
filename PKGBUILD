@@ -20,7 +20,7 @@ depends=(
   'libvterm>0.1.4'
   'luajit'
   'msgpack-c'
-  'tree-sitter-git'
+  'tree-sitter>=0.22.2'
   'unibilium'
   'lua51-lpeg'
 )
