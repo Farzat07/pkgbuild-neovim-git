@@ -59,6 +59,7 @@ build() {
     -DCMAKE_BUILD_TYPE=RelWithDebInfo \
     -DCMAKE_INSTALL_PREFIX=/usr \
     -DUSE_BUNDLED=OFF \
+    -G Ninja \
     -W no-dev
   cmake --build build
 }
