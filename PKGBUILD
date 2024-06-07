@@ -63,7 +63,7 @@ build() {
   cd "$_pkgname"
   cmake \
     -Bbuild \
-    -DCMAKE_BUILD_TYPE=RelWithDebInfo \
+    -DCMAKE_BUILD_TYPE=Release \
     -DCMAKE_INSTALL_PREFIX=/usr \
     -DUSE_BUNDLED=OFF \
     -G Ninja \
