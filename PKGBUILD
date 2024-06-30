@@ -16,6 +16,7 @@ backup=('etc/xdg/nvim/sysinit.vim')
 license=('custom:neovim')
 depends=(
   'libluv'
+  'libutf8proc'
   'libuv'
   'libvterm>0.1.4'
   'luajit'
