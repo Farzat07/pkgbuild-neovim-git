@@ -4,6 +4,7 @@
 # Contributor: Caleb Maclennan <caleb@alerque.com>
 # Contributor: Florian Walch <florian+aur@fwalch.com>
 # Contributor: Florian Hahn <flo@fhahn.com>
+# Contributor: Gregory Anders <aur@gpanders.com>
 
 _pkgname=neovim
 pkgname="$_pkgname-git"
