@@ -22,11 +22,9 @@ depends=(
   'lua51-lpeg'
   'luajit'
   'msgpack-c'
-  'tree-sitter-bash'
   'tree-sitter-c'
   'tree-sitter-lua'
   'tree-sitter-markdown'
-  'tree-sitter-python'
   'tree-sitter-query'
   'tree-sitter-vimdoc'
   'tree-sitter>=0.22.2'
@@ -35,6 +33,8 @@ depends=(
 makedepends=('cmake' 'git' 'ninja' 'unzip')
 optdepends=(
   'python-pynvim: for Python plugin support (see :help python)'
+  'tree-sitter-bash: tree-sitter parser for bash'
+  'tree-sitter-python: tree-sitter parser for python'
   'xclip: for clipboard support on X11 (or xsel) (see :help clipboard)'
   'xsel: for clipboard support on X11 (or xclip) (see :help clipboard)'
   'wl-clipboard: for clipboard support on wayland (see :help clipboard)'
